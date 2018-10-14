@@ -18,7 +18,6 @@ window.onload = function() {
 }
 
 function toggleMask(modal) {
-    console.log('test');
     var modal = document.querySelector(".modal");
     var showStatus = modal.style.display === "block" ? "none" : "block";
     modal.style.display = showStatus;
